@@ -1,4 +1,19 @@
 <header>
 	<img class="header-logo" src="{{header.logo.image}}">
 	<h1 class="header-title">{{header.logo.name}}</h1>
+	<ul class="header-menus">
+		{{#each header.menus}}
+			<li>
+				<a href="{{this.url}}">{{this.name}}</a>
+			</li>
+		{{/each}}
+	</ul>
+	<div class="header-news">
+		{{#each header.news}}
+			<a href="">
+				<span class="header-news-title">{{this.news}}</span>
+				<span class="header-news-description">{{this.description}}</span>
+			</a>
+		{{/each}}
+	</div>
 </header>

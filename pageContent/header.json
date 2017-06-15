@@ -2,23 +2,28 @@
 	"title" : "Header logo and menus datas",
 	"logo" : {
 		"name" : "PlromsPoint",
-		"image" : "../public/images/PP_logo_rotateView.png"
+		"image" : "/images/PP_logo_rotateView.png"
 	},
 	"menus" : [{
 		"name" : "Home",
 		"url" : "/",
-		"seo name" : "PP- Home Page",
-		"seo description" : "Test Description"
+		"seoname" : "PP- Home Page",
+		"seodescription" : "Test Description"
 	},{
 		"name" : "Detal",
 		"url" : "/detail",
-		"seo name" : "PP- Detail Page",
-		"seo description" : "Test Detail Description"
+		"seoname" : "PP- Detail Page",
+		"seodescription" : "Test Detail Description"
 	}],
-	"news" : {
+	"news" : [{
 		"name" : "news title",
 		"description" : "news description",
 		"url" : "/news",
 		"isexternallink" : "true"
-	}
+	},{
+		"name" : "news title",
+		"description" : "news description",
+		"url" : "/news",
+		"isexternallink" : "true"
+	}]
 }
